@@ -4,6 +4,7 @@ btn.addEventListener("click", fizBuzz);
 console.log(document.getElementById("phn").value);
 
 function fizBuzz() {
+  alert("Submitted Successfully!");
   let phn = document.getElementById("phn").value;
   console.log(phn);
   let sum = 0;
